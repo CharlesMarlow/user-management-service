@@ -1,0 +1,11 @@
+import express from 'express';
+import { registerUser, health, getUsers, deleteUserFromDB, handleUserUpdate, loginUser, verifyLogin, } from '../controllers/index.js';
+const router = express.Router();
+router.get('/health', health);
+router.delete('/users/:id', deleteUserFromDB);
+router.get('/users', getUsers);
+router.post('/register', registerUser);
+router.put('/update/:id', handleUserUpdate);
+router.post('/login', loginUser);
+router.post('/verify-login', verifyLogin);
+export default router;

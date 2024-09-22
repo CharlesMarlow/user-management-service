@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": "6cfc5fa5-48fe-43ec-a6c9-156b88fcaf60",
+      "name": "Leo Messi",
+      "email": "leo@messi.com",
+      "mobile": "1234567890",
+      "password": "$2b$10$NyZu3KcLJQiiLHOZIUPgMeBbp9F7GLUtSDJrmXoKD32yEx/81Z5cS",
+      "isLoginVerified": false,
+      "isPasswordChangeEligible": false,
+      "passwordChangeOtp": null,
+      "passwordChangeOtpTimestamp": null
+    }
+  ]
+}
